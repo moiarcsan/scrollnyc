@@ -162,7 +162,7 @@ $(function() {
     } else {
       $('.control').find('span').remove();
       $('#toggle').text('EMBIGGEN');
-      $('.map').css('background-size','auto 100%');
+      $('.map').css('background-size','100%');
     }
   });
 
@@ -303,8 +303,7 @@ function gestureStart() {
     background-attachment: fixed;
     background-repeat: no-repeat;
     border-top: 1px solid #000;
-    background-size: auto 100%;
-    background-position: 50% center;
+    background-size: 100%;
     height: 800px;
   }
 
@@ -350,107 +349,35 @@ function gestureStart() {
     bottom: -30px;
   }
 
-  #map1660 {
-    background-image: url("img/1660.jpg");
+  #osm1 {
+    background-image: url("img/osm1.png");
   }
 
-  #map1660 h2 {
-    left: 0%;
-  }
-
-  #map1766 {
-    background-image: url("img/1766.jpg");
-  }
-
-  #map1766 h2 {
-    left: 27%;
-  }
-
-  #map1797 {
-    background-image: url("img/1797.jpg");
-  }
-
-  #map1797 h2 {
-    left: 35%;
-  }
-
-  #map1817 {
-    background-image: url("img/1817.jpg");
-  }
-
-  #map1817 h2 {
-    left: 40%;
-  }
-
-  #map1830 {
-    background-image: url("img/1830.jpg");
-  }
-
-  #map1830 h2 {
-    left: 43%;
-  }
-
-  #map1841 {
-    background-image: url("img/1841.jpg");
-  }
-
-  #map1841 h2 {
-    left: 46%;
-  }
-
-  #map1849 {
-    background-image: url("img/1849.jpg");
-  }
-
-  #map1849 h2 {
-    left: 48%;
-  }
-
-  #map1857 {
-    background-image: url("img/1857.jpg");
-  }
-
-  #map1857 h2 {
-    left: 50%;
-  }
-
-  #map1878 {
-    background-image: url("img/1878.jpg");
-  }
-
-  #map1878 h2 {
-    left: 55%;
-  }
-
-  #map1913 {
-    background-image: url("img/1913.jpg");
-  }
-
-  #map1913 h2 {
-    left: 64%;
-  }
-
-  #map1920 {
-    background-image: url("img/1920.jpg");
-  }
-
-  #map1920 h2 {
-    left: 66%;
-  }
-
-  #map1921 {
-    background-image: url("img/1921.jpg");
-  }
-
-  #map1921 h2 {
+  #osm1 h2 {
     left: 66.3%;
   }
 
-  #map2014 {
-    background-image: url("img/2014.jpg");
+  #osm2 {
+    background-image: url("img/osm2.png");
   }
 
-  #map2014 h2 {
+  #osm2 h2 {
+    left: 66.3%;
+  }
+
+  #osm3 {
+    background-image: url("img/osm3.png");
+  }
+
+  #osm3 h2 {
+    left: 90%;
+  }
+
+  #osm4 {
+    background-image: url("img/osm4.png");
+  }
+
+  #osm4 h2 {
     left: 90%;
   }
 
@@ -512,27 +439,15 @@ function gestureStart() {
     </div>
     <div class="container"></div>
     <div id="maps">
-      <div class="control"><a href="#" id="toggle">EMBIGGEN</a></div>
-      <div id="map2014" class="map" ><h2 class="top">2014</h2><h2 class="bottom">2014</h2></div>
-      <div id="map1921" class="map" ><h2 class="top">1921</h2><h2 class="bottom">1921</h2></div>
-      <div id="map1920" class="map" ><h2 class="top">1920</h2><h2 class="bottom">1920</h2></div>
-      <div id="map1913" class="map" ><h2 class="top">1913</h2><h2 class="bottom">1913</h2></div>
-      <div id="map1878" class="map" ><h2 class="top">1878</h2><h2 class="bottom">1878</h2></div>
-      <div id="map1857" class="map" ><h2 class="top">1857</h2><h2 class="bottom">1857</h2></div>
-      <div id="map1849" class="map" ><h2 class="top">1849</h2><h2 class="bottom">1849</h2></div>
-      <div id="map1841" class="map" ><h2 class="top">1841</h2><h2 class="bottom">1841</h2></div>
-      <div id="map1830" class="map" ><h2 class="top">1830</h2><h2 class="bottom">1830</h2></div>
-      <div id="map1817" class="map" ><h2 class="top">1817</h2><h2 class="bottom">1817</h2></div>
-      <div id="map1797" class="map" ><h2 class="top">1797</h2><h2 class="bottom">1797</h2></div>
-      <div id="map1766" class="map" ><h2 class="top">1766</h2><h2 class="bottom">1766</h2></div>
-      <div id="map1660" class="map" ><h2 class="top">1660</h2><h2 class="bottom">1660</h2></div>
+      <div id="osm1" class="map" ><h2 class="top">OSM Estándar</h2><h2 class="bottom">OSM Estándar</h2></div>
+      <div id="osm2" class="map" ><h2 class="top">OSM Ciclista</h2><h2 class="bottom">OSM Ciclista</h2></div>
+      <div id="osm3" class="map" ><h2 class="top">OSM Transporte Público</h2><h2 class="bottom">OSM Transporte Púbico</h2></div>
+      <div id="osm4" class="map" ><h2 class="top">OSM Humanitario</h2><h2 class="bottom">OSM Humanitario</h2></div>
     </div>
     <div class="intro" >
       <div>
         <p>
-        Maps from the <a href="//maps.nypl.org">NYPL Map Division</a> &amp; <a href="//mapbox.com">Mapbox</a>.<br /><br />
-        by <a href="//twitter.com/mgiraldo">@mgiraldo</a> at <a href="//twitter.com/nypl_labs">@nypl_labs</a> (<a href="https://github.com/mgiraldo/scrollnyc">code</a>)
-        </p>
+        Maps from <a href="//osm.org">OSM</a>
         </p>
       </div>
     </div>

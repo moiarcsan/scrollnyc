@@ -25,6 +25,7 @@ var url = 'img/maps';
 var extension = '.jpg';
 $.ajax({
   url: url,
+  type: 'GET',
   success: function(data){
     $(data).find("a:contains(" + extension + ")").each(function () {
       var filename = this.innerHTML.replace(extension, "");

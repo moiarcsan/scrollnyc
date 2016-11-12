@@ -244,7 +244,7 @@ function gestureStart() {
     margin: 0;
     padding: 0;
     font-size: 18px;
-    font-family: Corbel, "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", "Bitstream Vera Sans", "Liberation Sans", Verdana, "Verdana Ref", sans-serif;
+    font-family: Arial, Corbel, "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", "Bitstream Vera Sans", "Liberation Sans", Verdana, "Verdana Ref", sans-serif;
     text-align: center;
   }
 
@@ -303,6 +303,15 @@ function gestureStart() {
     position: absolute;
     top: 40%;
     width: 100%;
+    color: #fff;
+  }
+
+  .intro-msg {
+    position: absolute;
+    top: 80%;
+    left: 10%;
+    width: 80%;
+    text-align: justify;
     color: #fff;
   }
 
@@ -420,17 +429,18 @@ function gestureStart() {
     <div class="intro" >
       <div>
         <h2>SCROLL</h2>
-<!-- svg -->
-<div id="downarrow">
-<svg width="57px" height="31px" viewBox="0 0 57 31" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
-    <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
-        <path d="M42.75,71.625 L57,71.625 L28.5,41.625 L-9.59232693e-14,71.625 L14.25,71.625 L28.5,56.625 L42.75,71.625 Z" id="down" fill="#424242" sketch:type="MSShapeGroup" transform="translate(28.500000, 36.000000) rotate(-180.000000) translate(-28.500000, -36.000000) "></path>
-    </g>
-</svg>
-</div>
-<!-- /svg -->
+          <!-- svg -->
+          <div id="downarrow">
+            <svg width="57px" height="31px" viewBox="0 0 57 31" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+              <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+                <path d="M42.75,71.625 L57,71.625 L28.5,41.625 L-9.59232693e-14,71.625 L14.25,71.625 L28.5,56.625 L42.75,71.625 Z" id="down" fill="#424242" sketch:type="MSShapeGroup" transform="translate(28.500000, 36.000000) rotate(-180.000000) translate(-28.500000, -36.000000) "></path>
+              </g>
+            </svg>
+          </div>
+          <!-- /svg -->
       </div>
     </div>
+    <div class="intro-msg">Estableciendo un símil con una red de metro, la Mapping Party Juvenil supone un ejercicio didáctico, en apariencia sencillo, pero lleno de imbricaciones y resultados. Así sobre un escenario pensado al efecto, el Parque de María Luisa, una serie de actores con distintas finalidades, que, en este caso, identificamos con las distintas líneas de la red, van dibujando una serie de itinerarios jalonados por distintos ítems a modo de paradas que, en ocasiones, presentan áreas de confluencia generando una serie de intercambiadores reflejo de las iteraciones establecidas entre los protagonistas.</div>
     <div class="container"></div>
     <div id="maps"></div>
     <iframe width="100%" height="800" frameborder="0" src="https://geoinquietossvq.carto.com/viz/d6440320-99fe-11e6-ae52-0e233c30368f/embed_map" allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe>
